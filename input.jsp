@@ -10,7 +10,7 @@
     <body>
         <h1>名前と国籍</h1>
 
-        <form method="post" action="./rjptest">
+        <form method="post" action="./rjpser">
             名前<input type="text" name="name"><br>
 
             国籍<input type="text" name="nationality"><br>
