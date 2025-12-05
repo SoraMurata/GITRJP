@@ -13,7 +13,7 @@
         <form method="post" action="./rjpser">
             名前<input type="text" name="name"><br>
 
-            国籍<input type="text" name="nationality"><br>
+            国籍<input type="text" name="nation"><br>
 
             <input type="submit" value="決定" />
         </form>
