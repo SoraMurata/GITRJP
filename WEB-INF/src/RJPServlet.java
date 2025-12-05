@@ -16,15 +16,15 @@ public class RJPServlet extends HttpServlet {
         req.setCharacterEncoding("utf-8");  
             
         String studentname = req.getParameter("name");
-        String nationality = req.getParameter("nation");
+        String nationality = req.getParameter("nationality");
 
         //リクエストにデータを登録する
         req.setAttribute("name", studentname);
-        req.setAttribute("nation", nationality);
+        req.setAttribute("nationality", nationality);
 
         //URL指定
         RequestDispatcher dispatcher =
-                req.getRequestDispatcher("result"); 
+                req.getRequestDispatcher("resultrjp"); 
 
         //JSPにリクエストを送信する
         dispatcher.forward(req, res);
